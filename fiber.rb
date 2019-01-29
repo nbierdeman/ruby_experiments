@@ -35,7 +35,7 @@ class Bran
   def fiber_combo
     fiber1 = Fiber.new do |fiber2_arg|
       puts "With a little more fiber..."
-      puts "The result = Fiber x #{1 + fiber2_arg}!"
+      puts "The result = fiber x #{1 + fiber2_arg}!"
     end
     fiber2 = Fiber.new do
       puts
