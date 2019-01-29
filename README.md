@@ -1,1 +1,1 @@
-Here you will find various examples of my explorations involving Ruby!
+Here you will find various examples of things that caught my interest while learning Ruby!
