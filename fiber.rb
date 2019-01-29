@@ -29,7 +29,7 @@ class Bran
     end
     puts "+#{mf.resume + 8} fiber points (fp)!"
     puts "+#{mf.resume + 3} fiber points (fp)!"
-    puts "+24fp = Fiber Blow Out!!!"
+    puts "+24fp = 4 cups of coffee!"
   end
 # transfer test using require 'fiber' above
   def fiber_combo
