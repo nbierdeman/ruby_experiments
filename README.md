@@ -1,1 +1,1 @@
-Here lies the dumping grounds of my explorations involving Ruby!
+Here you will find various examples of my explorations involving Ruby!
