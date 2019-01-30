@@ -14,16 +14,12 @@ The factorial of 0 is always 1.
 =end
 module RecursiveFactorial
   def fact(n)
-    if n <= 1
-      1
-    else
-      n * fact(n - 1)
-    end
+    n == 0 ? 1 : n * fact(n - 1)
   end
 end
 class Fun
   include RecursiveFactorial
 end
-# Outputs 120.
+# Correct output is 120.
 fun = Fun.new
 puts fun.fact(5)
