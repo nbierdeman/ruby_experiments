@@ -4,3 +4,4 @@ def char_counter(string)
   string.downcase.chars.sort.join.each_char { |char| freqs[char] += 1 }
   freqs.each { |char, count| puts "#{char}: #{count}" }
 end
+char_counter("Hello World!")
